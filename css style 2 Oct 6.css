@@ -1,0 +1,46 @@
+header{
+    background-color: lightcyan;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav{
+    background-color: lightgreen;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 0px;
+    margin: 10px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-top: 0px dotted black;
+  border-bottom:0px dotted black;
+}
+nav li{
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px;
+}
+section{
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+aside{
+    background-color: lightyellow;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+footer{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}

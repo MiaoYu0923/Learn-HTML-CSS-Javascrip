@@ -1,0 +1,17 @@
+nav{
+    background-color:lightblue;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0px;
+}
+nav li{
+    display: inline-block;
+}
+a{
+    text-decoration:none;
+    color:brown
+}
+a:hover{
+    background-color:red;
+}
