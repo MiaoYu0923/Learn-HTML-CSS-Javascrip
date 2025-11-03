@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //strict mode - error for undeclared variable
+        (function strictExample(){
+            "use strict";
+            try{
+                x = 5;//Error - x is not declared 
+            }catch(e){
+                console.error("Strict mode caught:",e.message);
+            }
+        })();
+    </script>
+</body>
+</html>
